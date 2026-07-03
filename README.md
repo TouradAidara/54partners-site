@@ -1,8 +1,10 @@
-# Welcome to Conductor
+# 54 Partners
 
-This is the starter project for Conductor, a macOS app for running multiple coding agents in parallel in isolated git worktree workspaces.
+Marketing site for 54 Partners, a pan-African strategy, legal & financial advisory firm.
 
-The app is intentionally tiny: one dependency-free `index.html` file plus a few static assets in `public/`. There is no install step, build step, package manager, framework, or dev server.
+The site is intentionally dependency-free: one `index.html` file (markup, styles, and client-side routing/rendering logic) plus static assets in `public/`. There is no install step, build step, package manager, framework, or dev server — open `index.html` directly in a browser.
+
+Pages (Home, Expertise, Clients, Contact) are client-rendered and addressed via hash routes (`#/expertise`, `#/clients`, `#/contact`) so navigation, direct links, and back/forward all work without a server. The contact form is front-end only — wire it up to a real backend or form/email service before relying on it to receive submissions.
 
 ## How Conductor Uses This Project
 
